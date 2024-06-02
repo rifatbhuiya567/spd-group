@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>HOME | SPD GROUP</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.jpg">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Slick JS -->
+    <link rel="stylesheet" href="css/slick.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Main Header Start -->
+    <header class="main-header">
+        <!-- Desktop Menu -->
+        <nav class="desktop-menu d-none d-lg-block">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <a href="index.html">
+                                <img class="logo" src="images/logo.jpg" alt="main logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="d-flex justify-content-center mt-3 nav-ul">
+                            <li>
+                                <a class="active" href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">about</a>
+                            </li>
+                            <li class="dm-dropdown">
+                                <a 
+                                    href="services.html"
+                                    class="d-inline-flex gap-1 align-items-center dm-menu"
+                                >
+                                    <span>services</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+
+                                <!-- Dropdown Content -->
+                                <ul class="dm-dropdown-content">
+                                    <li>
+                                        <a href="#">item one</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">item two</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="sectors.html">sectors</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <nav class="mobile-menu d-block d-lg-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="logo" src="images/logo.jpg" alt="spd main logo" />
+                        </a>
+                    </div>
+                    <div class="col-6 text-end">
+                        <button 
+                            class="btn solidbar" 
+                            type="button" 
+                            data-bs-toggle="offcanvas" 
+                            data-bs-target="#responsiveMenu" 
+                            aria-controls="responsiveMenu"
+                        >
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+
+                        <div class="offcanvas offcanvas-start text-start" data-bs-scroll="true" tabindex="-1" id="responsiveMenu">
+                            <div class="offcanvas-header">
+                                <a href="index.html">
+                                    <img class="canvas-logo" src="images/logo.jpg" alt="spd main logo" />
+                                </a>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="nav-ul w-100">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item dropdown-li position-relative">
+                                        <a class="nav-link service-dropdown" href="services.html">
+                                            Services
+                                        </a>
+                                        <button type="button" class="services-dropdown-toggle">
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </button>
+                                        <ul class="mobile-services-dropdown-menu">
+                                            <li><a href="#">item one</a></li>
+                                            <li><a href="#">item two</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="sectors.html">Sectors</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Main Header End -->
+
+    <!-- Hero Start -->
+    <main class="position-relative hero">
+        <!-- Slider -->
+        <div class="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223"/>
+            </svg>
+        </div>
+        <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/>
+            </svg>
+        </div>
+        <div  class="hero-slider">
+            <div class="slider-content" style="background: url(images/hero-slider/1.jpg) no-repeat center / cover;">
+                <div class="hero-inner-slider">
+                    <div class="bg" style="background: url(images/hero-slider/left-overlay.png) no-repeat center / cover;">
+                        <div class="d-flex h-100 align-items-center left-slider">
+                            <div class="text-slider text-end">
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-content" style="background: url(images/hero-slider/2.jpg) no-repeat center / cover;">
+                <div class="hero-inner-slider">
+                    <div class="bg right" style="background: url(images/hero-slider/right-overlay.png) no-repeat center / cover;">
+                        <div class="d-flex h-100 align-items-center right-slider">
+                            <div class="text-slider">
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                                <div class="text-slider-content">
+                                    <h1 data-animation="fadeInUp" 
+                                    data-delay="0.5s">
+                                        Quality <br> workmanship <br> you can trust
+                                    </h1>
+                                    <p data-animation="fadeInUp" 
+                                    data-delay="0.7s">
+                                        Commercial Decorating and Maintenance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="hero-bttm text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>
+                            for dedicated commercial maintenance contracts & advice call <a href="tel:01743469111">01743 469 111</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Hero End -->
+
+    <!-- BTT Start -->
+    <div class="btt" title="back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- BTT End -->
+
+    <!-- Client Logos Start -->
+    <div class="client-logos">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <ol class="d-flex flex-md-nowrap flex-wrap justify-content-between align-items-center">
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/1.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/2.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/3.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/4.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/5.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/6.png" alt="client logo" />
+                        </li>
+                        <li>
+                            <img class="mt-1 mt-md-0" src="images/client-logos/7.png" alt="client logo" />
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Client Logos End -->
+
+    <!-- Home Welcome Start -->
+    <section class="home-welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Welcome to SP&D Group</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut 
+                    </p>
+                    <p>
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur. 
+                    </p>
+                    <div class="action">
+                        <p>
+                            Talk to us today about your requirements or to discuss a bespoke services package.
+                        </p>
+                        <p>
+                            Email: <a href="mailto:info@spdgroup.co.uk">info@spdgroup.co.uk</a>    Call: <a href="tel:01743469111">01743 469111</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Welcome End -->
+
+    <!-- Home Services Start -->
+    <section class="home-services">
+        <!-- Big Cards -->
+        <div class="big-card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="big-card-img">
+                            <img class="w-100 img-fluid" src="images/home-services/1.png" alt="home services" />
+                        </div>
+                        <div class="big-card-content mt-1">
+                            <h4>Commercial Decorating</h4>
+                            <p>
+                                descriptive text here, description and call to action to visit page
+                            </p>
+                            <a href="#">More here ...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mt-3 mt-md-0">
+                        <div class="big-card-img">
+                            <img class="w-100 img-fluid" src="images/home-services/2.png" alt="home services" />
+                        </div>
+                        <div class="big-card-content mt-1">
+                            <h4>Commercial Maintenance</h4>
+                            <p>
+                                descriptive text here, description and call to action to visit page
+                            </p>
+                            <a href="#">More here ...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Small Cards -->
+        <div class="small-card mt-md-4 mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/3.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Contract Cleaning</h5>
+                            <a href="#">read here ...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/4.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Building Works</h5>
+                            <a href="#">read here ...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/5.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Electrical Contracting</h5>
+                            <a href="#">read here ...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/6.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Decorating & Flooring</h5>
+                            <a href="#">read here ...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/7.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Grounds Maintenance</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/8.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Planned Preventative Maintenance</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/9.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Commercial Plumbing & Heating</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 mt-md-5 mt-2">
+                        <div class="small-card-image">
+                            <img class="w-100 img-fluid" src="images/home-services/10.png" alt="home services" />
+                        </div>
+                        <div class="small-card-content mt-1">
+                            <h5>Intermittent Fire Spraying</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Action -->
+        <div class="service-action">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10 col-md-11 text-center">
+                        <div class="logo">
+                            <img src="images/action_logo.png" alt="spd group logo" />
+                        </div>
+                        <div class="service-action-content">
+                            <h6>Commercial property maintenance & construction contractors delivering bespoke solutions for your business.</h6>
+                            <p class="mt-2">
+                                SPD Group have been serving Shrewsbury, Shropshire and the surrounding counties for over 20 years. We have built a dependable reputation for quality workmanship, reliable, friendly and highly professional approach to delivering solutions for hotels, colleges and offices.
+                            </p>
+                            <p class="mt-2">
+                                We provide a diverse range of dedicated services – from restoration through to full planned preventative maintenance contracts for hotels and colleges.
+                            </p>
+                            <p class="mt-2 bold">
+                                Please call to discuss your requirements
+                            </p>
+                            <a href="tel:01743469111">01743 469 111</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Services End -->
+
+    <!-- Footer Start -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-logo text-center">
+                        <img src="images/footer_logo.png" alt="footer logo" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between footer-middle">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="sectors.html">Sectors</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 text-end">
+                    <h6>SP&D Group Ltd</h6>
+                    <address>
+                    6B Henry Close <br>
+                    Battlefield Industrial Estate <br>
+                    Shrewsbury, Shropshire <br>
+                    SY1 3TJ 
+                    </address>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center footer-bottom">
+                <div class="col-lg-3 col-md-4 text-center">
+                    <ul>
+                        <li>
+                            <a href="#">Website Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 text-center mt-2 mt-md-0">
+                    <ol>
+                        <li>
+                            <a href="tel:01743469111">01743 469 111</a>
+                        </li>
+                        <li>
+                            <a href="mailto:spdgroup.co.uk">info@spdgroup.co.uk</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-3 col-md-4 text-md-end text-center mt-2 mt-md-0">
+                    <p>
+                        &copy; SP&G Group Ltd. <br>
+                        Design <a href="https://likewildfire.co.uk/" target="_blank">Like Wildfire</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border-one"></div>
+        <div class="border-two"></div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Jquery Version -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+    <script>
+        // Hero Slider
+        $('.hero-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 10000,
+            infinite: false,
+            speed: 500,
+            dots: false,
+            arrows: true,
+            fade: true,
+            cssEase: 'linear',
+            prevArrow: '.prev',
+            nextArrow: '.next',
+        });
+    </script>
+    <script>
+        // Text Slider
+        let textSlider = $('.text-slider');
+        textSlider.on('init', function (e, slick) {
+            var $firstAnimatingElements = $('.text-slider-content:first-child').find('[data-animation]');
+            doAnimations($firstAnimatingElements);
+        });
+
+        textSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+            var $animatingElements = $('.text-slider-content[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+            doAnimations($animatingElements);
+        });
+
+        textSlider.slick({
+            autoplay: true,
+            autoplaySpeed: 5500,
+            infinite: false,
+            speed: 500,
+            dots: true,
+            arrows: false,
+        });
+
+        function doAnimations(elements) {
+        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            elements.each(function () {
+                var $this = $(this);
+                var $animationDelay = $this.data('delay');
+                var $animationType = 'animated ' + $this.data('animation');
+                $this.css({
+                    'animation-delay': $animationDelay,
+                    '-webkit-animation-delay': $animationDelay
+                });
+                $this.addClass($animationType).one(animationEndEvents, function () {
+                    $this.removeClass($animationType);
+                });
+            });
+        }
+    </script>
+
+    <!-- Main Script Sheet -->
+    <script src="js/script.js"></script>
+</body>
+</html>
