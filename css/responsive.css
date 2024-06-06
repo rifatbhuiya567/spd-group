@@ -1,28 +1,6 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .slider-content {
-        height: 440px;
-    }
-
-    .hero-inner-slider {
-        width: 45%;
-    }
-
-    .hero-inner-slider .bg {
-        height: 440px;
-    }
-
-    .hero-inner-slider .bg.right {
-        width: 45%;
-    }
-
-    .hero-inner-slider .text-slider-content h1 {
-        font-weight: 600;
-        line-height: 1.2;
-    }
-
-    .text-slider .slick-dots li button {
-        height: 12px;
-        width: 12px;
+    .slider-content .bg {
+        width: 50%;
     }
 
     .home-services .small-card-image img {
@@ -35,6 +13,10 @@
 
     .contact iframe {
         height: 360px;
+    }
+
+    .home-services .low-opacity-logo {
+        top: -110px;
     }
 }
 
@@ -55,63 +37,17 @@
         height: 400px;
     }
 
-    .hero-inner-slider {
-        width: 55%;
+    .slider-content .bg {
+        width: 60%;
     }
 
-    .hero-inner-slider .bg {
-        height: 400px;
-    }
-
-    .hero-inner-slider .bg.right {
-        width: 55%;
-    }
-
-    .hero-inner-slider .text-slider-content h1 {
-        font-weight: 600;
-        line-height: 1.2;
-    }
-
-    
-    .hero-inner-slider .left-slider {
-        margin-right: 60px;
-    }
-
-    .hero-inner-slider .right-slider {
-        margin-left: 60px;
-    }
-
-    .text-slider .slick-dots li button {
-        height: 12px;
-        width: 12px;
-    }
-
-    .text-slider .slick-dots {
-        transform: translateY(60px);
-        -webkit-transform: translateY(60px);
-        -moz-transform: translateY(60px);
-        -ms-transform: translateY(60px);
-        -o-transform: translateY(60px);
+    .hero .next svg, .hero .prev svg {
+        height: 40px;
+        width: 40px;
     }
 
     .home-services .small-card-image img {
         height: 140px;
-    }
-
-    .home-services .service-action {
-        margin-top: 80px;
-    }
-
-    .service-action .logo {
-        margin-top: 60px;
-    }
-
-    .service-action .logo img {
-        width: 80px;
-    }
-
-    .home-services .service-action-content {
-        margin-top: 24px;
     }
 
     .main-footer img {
@@ -150,16 +86,40 @@
         padding: 40px 0;
         background: transparent;
     }
+
+    .home-services {
+        padding-top: 40px;
+    }
+
+    .home-services .small-card {
+        padding-bottom: 40px;
+    }
+
+    .home-services .low-opacity-logo {
+        top: -88px;
+    }
 }
 
 @media (max-width: 991.98px) {
-    .hero .next,
-    .hero .prev {
+    .slider-content .bg {
+        opacity: 1;
+    }
+
+    .hero-slider .slick-dots {
         display: none !important;
     }
 
     .service-list p {
         padding: 0 0;
+    }
+
+    .mobile-menu .nav-ul a {
+        font-weight: 600 !important;
+    }
+
+    .mobile-services-dropdown-menu a {
+        padding: 8px 8px 8px 20px !important;
+        font-size: 14px;
     }
 }
 
@@ -177,51 +137,24 @@
     }
 
     .slider-content {
-        height: 340px;
+        height: 360px;
     }
 
-    .hero-inner-slider {
-        width: 68%;
+    .slider-content .bg {
+        width: 70%;
     }
 
-    .hero-inner-slider .bg {
-        height: 340px;
-        opacity: 1;
+    .hero .next svg, .hero .prev svg {
+        height: 32px;
+        width: 32px;
     }
 
-    .hero-inner-slider .bg.right {
-        width: 68%;
+    .slider-content .left-slider {
+        padding-left: 40px;
     }
 
-    .hero-inner-slider .text-slider-content h1 {
-        font-weight: 600;
-        line-height: 1.2;
-    }
-
-    .hero-inner-slider .text-slider-content p {
-        font-weight: 500;
-        margin-top: 20px;
-    }
-    
-    .hero-inner-slider .left-slider {
-        margin-right: 40px;
-    }
-
-    .hero-inner-slider .right-slider {
-        margin-left: 40px;
-    }
-
-    .text-slider .slick-dots li button {
-        height: 10px;
-        width: 10px;
-    }
-
-    .text-slider .slick-dots {
-        transform: translateY(60px);
-        -webkit-transform: translateY(60px);
-        -moz-transform: translateY(60px);
-        -ms-transform: translateY(60px);
-        -o-transform: translateY(60px);
+    .slider-content .right-slider {
+        padding-right: 40px;
     }
 
     .client-logos {
@@ -229,7 +162,7 @@
     }
 
     .home-welcome {
-        padding: 32px 0;
+        padding: 52px 0;
     }
 
     .home-welcome h2 {
@@ -241,29 +174,8 @@
         margin-top: 20px;
     }
 
-    .home-services {
-        padding: 32px 0;
-        background: var(--off_white_color);
-    }
-
     .home-services .small-card-image img {
         height: 140px;
-    }
-
-    .home-services .service-action {
-        margin-top: 20px;
-    }
-
-    .service-action .logo {
-        margin-top: 0;
-    }
-
-    .service-action .logo img {
-        width: 72px;
-    }
-
-    .home-services .service-action-content {
-        margin-top: 24px;
     }
 
     .home-services .big-card-content h4 {
@@ -337,6 +249,27 @@
     .contact-form .form-inner {
         margin-top: 28px;
     }
+
+    .service-action .logo img {
+        width: 90px;
+    }
+
+    .home-services {
+        padding-top: 40px;
+    }
+
+    .home-services .small-card {
+        padding-bottom: 40px;
+    }
+
+    .home-services .low-opacity-logo {
+        top: -60px;
+    }
+
+    .client-logos img {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -353,51 +286,34 @@
     }
 
     .slider-content {
-        height: 320px;
+        height: 340px;
     }
 
-    .hero-inner-slider {
-        width: 72%;
+    .slider-content .bg {
+        width: 80%;
     }
 
-    .hero-inner-slider .bg {
-        height: 320px;
-        opacity: 1;
-    }
-
-    .hero-inner-slider .bg.right {
-        width: 72%;
-    }
-
-    .hero-inner-slider .text-slider-content h1 {
+    .slider-content .slider-text h1 {
         font-weight: 600;
-        line-height: 1.2;
+        line-height: 1.3;
     }
 
-    .hero-inner-slider .text-slider-content p {
+    .slider-content .slider-text p {
         font-weight: 500;
-        margin-top: 20px;
-    }
-    
-    .hero-inner-slider .left-slider {
-        margin-right: 40px;
+        margin-top: 16px;
     }
 
-    .hero-inner-slider .right-slider {
-        margin-left: 40px;
+    .hero .next svg, .hero .prev svg {
+        height: 32px;
+        width: 32px;
     }
 
-    .text-slider .slick-dots li button {
-        height: 10px;
-        width: 10px;
+    .slider-content .left-slider {
+        padding-left: 60px;
     }
 
-    .text-slider .slick-dots {
-        transform: translateY(60px);
-        -webkit-transform: translateY(60px);
-        -moz-transform: translateY(60px);
-        -ms-transform: translateY(60px);
-        -o-transform: translateY(60px);
+    .slider-content .right-slider {
+        padding-right: 60px;
     }
 
     .client-logos {
@@ -405,7 +321,7 @@
     }
 
     .home-welcome {
-        padding: 32px 0;
+        padding: 48px 0;
     }
 
     .home-welcome h2 {
@@ -417,29 +333,8 @@
         margin-top: 20px;
     }
 
-    .home-services {
-        padding: 32px 0;
-        background: var(--off_white_color);
-    }
-
     .home-services .small-card-image img {
         height: 110px;
-    }
-
-    .home-services .service-action {
-        margin-top: 20px;
-    }
-
-    .service-action .logo {
-        margin-top: 0;
-    }
-
-    .service-action .logo img {
-        width: 72px;
-    }
-
-    .home-services .service-action-content {
-        margin-top: 24px;
     }
 
     .home-services .big-card-content h4 {
@@ -541,5 +436,40 @@
     .contact-form h1 {
         font-weight: 500;
         margin-bottom: 12px;
+    }
+
+    .home-services {
+        padding-top: 40px;
+    }
+
+    .service-action .logo img {
+        width: 80px;
+    }
+
+    .home-services .service-action-content {
+        margin-top: 24px;
+    }
+
+    .home-services .small-card {
+        padding-bottom: 40px;
+    }
+
+    .home-services .low-opacity-logo {
+        top: -50px;
+    }
+
+    .home-services .service-action {
+        padding: 32px 0;
+    }
+
+    .client-logos img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 415.98px) {
+    .slider-content .bg {
+        width: 85%;
     }
 }
